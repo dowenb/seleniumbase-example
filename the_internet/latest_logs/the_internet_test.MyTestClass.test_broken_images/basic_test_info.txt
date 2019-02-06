@@ -1,0 +1,11 @@
+Last_Page: http://the-internet.herokuapp.com/broken_images
+Browser: chrome 
+Traceback: File "C:\Program Files (x86)\Python37-32\lib\unittest\case.py", line 615, in run
+    testMethod()
+  File "E:\dev\github\seleniumbase-example\the_internet\the_internet_test.py", line 15, in test_broken_images
+    self.assertGreater(int(self.get_attribute(BrokenImages.image1, 'naturalWidth')), 0)
+  File "C:\Program Files (x86)\Python37-32\lib\unittest\case.py", line 1238, in assertGreater
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Program Files (x86)\Python37-32\lib\unittest\case.py", line 680, in fail
+    raise self.failureException(msg)
+Exception: 0 not greater than 0
