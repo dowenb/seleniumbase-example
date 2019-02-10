@@ -102,5 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
 #logs
-/latest_logs
+latest_logs/
